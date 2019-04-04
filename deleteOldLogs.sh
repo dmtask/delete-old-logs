@@ -19,5 +19,5 @@ done
 
 sleep 0.5
 if $sendMail; then
-        mail -a "From: Log-Checker <servermails@eoceo.de>" -s "Log-GC (~/cronjobs/deleteOldLogs.sh)" dm@eoceo.de < ${tempFileForInfos}
+        mail -a "From: Log-Checker <servermails@dmtask.de>" -s "Log-GC (~/cronjobs/deleteOldLogs.sh)" xx@xx.de < ${tempFileForInfos}
 fi
